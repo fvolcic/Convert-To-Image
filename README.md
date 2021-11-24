@@ -7,6 +7,11 @@ Example text to image:
   <img src="https://user-images.githubusercontent.com/59806465/143178641-acba6a91-1fd7-4aa9-8343-159628a9a546.png" />
 </p>
 
+Example audio of wind in a forest to an image:
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/59806465/143290678-c998487a-b69e-4f48-8389-419e7a32fe5e.png" />
+</p>
+
 ## Installation
 
 First clone
@@ -43,6 +48,21 @@ This will return the Github Logo
 
 ```bash
 ./ImageProcessor -i -f test-file.bmp
+```
+
+This will return a 1 second audio file of wind in a forst
+```bash
+./ImageProcessor -i -f wind.bmp
+```
+
+Or, drag and drop any file youd like into the directory and run this command to get an image: 
+```bash
+./ImageProcessor -d -f [YOUR-FILE-NAME] -o [myfile.bmp]
+```
+
+And to get the original data back, run
+```bash
+./ImageProcessor -i -f myfile.bmp
 ```
 
 ## Contributing
