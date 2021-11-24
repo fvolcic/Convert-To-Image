@@ -37,6 +37,14 @@ To convert something from an image (must have been an image created with ImagePr
 ./ImageProcessor -i -f [input-image]
 ```
 
+## Try It
+
+This will return the Github Logo 
+
+```bash
+./ImageProcessor -i -f test-file.bmp
+```
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
