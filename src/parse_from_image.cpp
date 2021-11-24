@@ -8,11 +8,19 @@
 #ifndef PARSEFROM
 #define PARSEFROM
 
+std::ifstream::pos_type filesize(const char* filename)
+{
+    std::ifstream in(filename, std::ifstream::ate | std::ifstream::binary);
+    return in.tellg(); 
+}
+
 void parseFromImage(std::string filename){
     
     bitmap_image image(filename); 
 
     std::vector<unsigned char> data; 
+
+    data.reserve(filesize(filename.data())); 
 
     for(int i = 0; i < image.width(); ++i){
         for(int j = 0; j < image.height(); ++j){
