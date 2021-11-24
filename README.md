@@ -30,6 +30,8 @@ This will create a binary titled 'ImageProcessor'
 
 ## Usage
 
+When converting audio files, I recommend using .wav files. They are uncompressed, so the image will more closely reflect what you are actually hearing!
+
 To convert something to an image we use the following set of commands
 
 ```bash
