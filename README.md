@@ -12,7 +12,7 @@ Example text to image:
 First clone
 
 ```bash
-git clone github.git
+git clone https://github.com/fvolcic/Convert-To-Image.git
 ```
 
 Enter the directory, and then run
