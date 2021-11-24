@@ -31,7 +31,7 @@ To convert something to an image we use the following set of commands
 ./ImageProcessor -d -f [input-file] -o [output-file]
 ```
 
-To convert something from an image, we use the following command
+To convert something from an image (must have been an image created with ImageProcessor), we use the following command
 
 ```bash
 ./ImageProcessor -i -f [input-image]
